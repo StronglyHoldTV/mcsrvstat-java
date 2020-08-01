@@ -4,9 +4,9 @@
 
 Online players:
 ```kotlin
-    val api = API.getStatus("server_ip:server_port")
+    val response = API.getStatus("server_ip:server_port")
     
-    val onlinePlayers = api.players?.online
+    val onlinePlayers = response.players?.online
 ```
 
 
